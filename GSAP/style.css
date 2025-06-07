@@ -3,14 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
-background-color: white;
+    background-color: whitesmoke;
+   
 
 }
-html,
-
-body{
-    
-    background-color: black;
+.body{
+     width: 100px;
+    height: 100px;
 }
 #nav
 {
@@ -19,6 +18,7 @@ body{
     justify-content: space-between;
     font-size: large;
     padding: 30px 50px;
+    background-color: whitesmoke;    
 
 }
 #part2{
@@ -34,4 +34,29 @@ body{
     width: 150px;
     height: 100px;  
     background-color: springgreen;
+}
+
+#page2{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(123, 5, 234);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page3{
+    height: 120px;
+    width: 120px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page4{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(167, 122, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

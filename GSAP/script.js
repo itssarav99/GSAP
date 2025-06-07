@@ -2,13 +2,15 @@ gsap.from("h1",{
     y:30,
 color:"red",
 opacity:0,
-duration:4,
-delay:1.5,
-stagger:1
+duration:2,
+delay:1,
+stagger:1,
+repeat:Infinity,
+yoyo:true
 })
 
 gsap.from("h3",{
-    x:30,
+    x:-100,
 color:"green",
 opacity:1,
 duration:4,
@@ -35,9 +37,11 @@ tl.from("h2",{
    
     y:-20,
     opacity:0,
-    duration:1,
-    delay:0.5,
-    stagger:1
+    duration:1.5,
+    delay:1,
+    stagger:1,
+    yoy:true,
+   
 
 })
 tl.from("#part2",{
@@ -53,11 +57,30 @@ tl.from("#part2",{
 tl.to("#box2",{
 x:900,
 duration:6,
-dealy:3,
+dealy:1,
 rotate:360,
 backgroundColor:"blue",
-scale:.5,
+borderRadius:"60%",
+scale:.8,
 repeat:Infinity,
 yoyo:true
 })
-
+gsap.from("#page2 #box",{
+    scale:0,
+    delay:1,
+    duration:2,
+    rotate:360  
+ 
+})
+gsap.from("#page3 #box",{
+    scale:0,
+    delay:1,
+    duration:2,
+ 
+})
+gsap.from("#page4 #box",{
+    scale:0,
+    delay:1,
+    duration:2,
+ 
+})
